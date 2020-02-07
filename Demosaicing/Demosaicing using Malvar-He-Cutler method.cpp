@@ -101,7 +101,9 @@ for(int i=0; i<Size1; ++i){
         for(int j=((N-1)/2); j<(Size2+(N-(((N-1)/2)+1))); j++){
             Imagedata[i][j][0]=(int)Imagedatainput[i-((N-1)/2)][j-((N-1)/2)][0];
         }
-    }//Corner matrices formed for Imagedata
+    }
+
+//Corner matrices formed for Imagedata
 
 //Top left
  int p=(N-1);
